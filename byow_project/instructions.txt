@@ -1,0 +1,42 @@
+Author:  Wil Aquino and Liam Howell
+Date:    November 16, 2020
+Project: Build Your Own World (BYOW)
+
+-------------------------
+Introduction
+-------------------------
+This project uses a world building algorithm to play an escape game, idea designed by
+UC Berkeley's CS61B course, and implementation designed by Wil Aquino and Liam Howell.
+
+Upon entering the main GUI of the program, there are three options:
+1. New Game (N)
+2. Load Game (L)
+3. Quit (Q)
+
+These three menus will be explained shortly, but it is to be noted that most functionality
+is implemented through keyboard inputs. Once the world is generated, the user may move
+within the world using the standard "WASD" control scheme for moving. The game is won and ends
+once the user navigates to the exit.
+
+Otherwise, the user can save and quit the program by pressing ':' followed by 'Q', '1', '2', '3',
+or '4' (See the tip in the New Game menu to learn more).
+
+Hovering over certain tiles with the mouse also reveals information about that tile in the
+top-left corner.
+
+-------------------------
+Instructions
+-------------------------
+NEW GAME (N):
+Upon entering the new game screen by pressing 'N', the user is prompted with a seed to input.
+This seed may be in the form of numbers and numbers only. Upon finishing the seed input by
+pressing 'S', the world generation is complete, and the user can now move in it.
+
+LOAD GAME (L):
+Upon entering the load game screen by pressing 'L', the user is prompted with a number save
+slot to load, unless there are no saves available. Upon loading one of the slots by pressing
+'0', '1', '2', '3', or '4' (depending on how many slots there are available), the world generates
+the saved world, and the world generation is complete; the user can now move in it.
+
+QUIT (Q):
+By pressing 'Q', the user quits the game and is prompted to close the window.
