@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="libraryTable">
+    <library name="javalib">
+      <CLASSES>
+        <root url="file://$USER_HOME$/coding_classes/cs61b/fa20-s1109/library-fa20/javalib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/coding_classes/cs61b/fa20-s1109/library-fa20/javalib" />
+      </SOURCES>
+      <jarDirectory url="file://$USER_HOME$/coding_classes/cs61b/fa20-s1109/library-fa20/javalib" recursive="false" />
+      <jarDirectory url="file://$USER_HOME$/coding_classes/cs61b/fa20-s1109/library-fa20/javalib" recursive="false" type="SOURCES" />
+    </library>
+  </component>
+</project>
